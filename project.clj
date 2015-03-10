@@ -1,5 +1,6 @@
 (defproject mui "0.1.0-SNAPSHOT"
   :plugins [[lein-cljsbuild "1.0.4"]]
+  :repositories [["snapshots" {:url "http://etheride.com:8080/repository/snapshots/"}]]
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [org.clojure/clojurescript "0.0-2740"]
                  [shodan "0.4.1"] ; logging
